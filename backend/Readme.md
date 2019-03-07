@@ -12,7 +12,7 @@ docker run -d -p 8080:80 --name swo-front swo-front:latest
 curl localhost:8080
 
 
-#parar
+# parar
 
 docker stop swo-front
 
