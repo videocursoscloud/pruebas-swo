@@ -1,16 +1,16 @@
-docker build -t swingoffice-front:latest .
+docker build -t swo-front:latest .
 
 Ejecutar contenedor:
 
-docker run -d -p 8080:80 --name swingoffice-front swingoffice-front:latest
+docker run -d -p 8080:80 --name swo-front swo-front:latest
 
 curl localhost:8080
 
 
 #parar
-docker stop swingoffice-front
+docker stop swo-front
 
 # eliminar contenedor
 
-docker rm swingoffice-front
+docker rm swo-front
 
